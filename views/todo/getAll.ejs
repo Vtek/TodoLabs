@@ -1,4 +1,6 @@
-
-<% for(var i = 0; i < todos.length; i++){%>
-<p><%=todos[0].name%></p>
-<%}%>
+<% for(var i = 0; i < todos.length; i++){ %>
+<p>
+    <%= todos[i].title %>
+    <%= todos[i].done %>
+</p>
+<% } %>
